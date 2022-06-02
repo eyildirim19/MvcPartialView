@@ -1,0 +1,74 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+
+    <style>
+        .box{
+            width:100px;
+            height:100px;
+            border:1px solid brown;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+    </div>
+
+    <br />
+
+    @*// belirtilen pathtki view'i render eder..
+
+        Partial Viewlar ilgili klasörde (controller bazlı) veya shared klasörü içerisinde tanımlanır..
+
+
+        Partial Viewlarda genelde sadece sayfa içi tasarımlar yapılır....
+
+
+    *@
+
+    <div id="bizim dib">
+      @Html.Partial("_Kutu")
+    </div>
+
+    
+    <div id="bizim dib">
+      @Html.Partial("_Kutu")
+    </div>
+
+    
+    <div id="bizim dib">
+      @Html.Partial("_Kutu")
+    </div>
+
+    
+    <div id="bizim dib">
+      @Html.Partial("_Kutu")
+    </div>
+
+    
+    <div id="bizim dib">
+      @Html.Partial("_Kutu")
+    </div>
+
+    
+    <div id="bizim dib">
+      @Html.Partial("_Kutu")
+    </div>
+
+    
+    <div id="bizim dib">
+      @Html.Partial("_Kutu")
+    </div>
+
+
+</body>
+</html>

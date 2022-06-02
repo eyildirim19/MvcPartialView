@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcPartialView", "MvcPartialView\MvcPartialView.csproj", "{EE18B269-B7E4-4215-8D04-26B130A35C78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE18B269-B7E4-4215-8D04-26B130A35C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE18B269-B7E4-4215-8D04-26B130A35C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE18B269-B7E4-4215-8D04-26B130A35C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE18B269-B7E4-4215-8D04-26B130A35C78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D4F39E8-3F60-4A3F-AC4B-86D11556A0AF}
+	EndGlobalSection
+EndGlobal
